@@ -5,7 +5,7 @@ const emailMap = require('../utils/emailMap')
 
 exports.handleContact = async (req, res) => {
   try {
-    const { name, email, message, app } = req.body
+    const { name, email, phone, message, app } = req.body
 
     const receiver = emailMap[app] || emailMap['portfolio']
 
@@ -14,6 +14,7 @@ exports.handleContact = async (req, res) => {
       <p><strong>App:</strong> ${app}</p>
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Phone:</strong> ${phone}</p>
       <p><strong>Message:</strong><br/>${message}</p>
     `
 
