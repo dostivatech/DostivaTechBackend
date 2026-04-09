@@ -1,8 +1,7 @@
 // src/utils/emailMap.js
 
 module.exports = {
-  portfolio: "your@email.com",
-  "dostiva-cars": "cars@dostiva.com",
-  "dostiva-consultancy": "consulting@dostiva.com",
-  "dostiva-tech": "tech@dostiva.com"
+  portfolio: "mohanvelaga1998@gmail.com",
+  "dostiva-consultancy": "mohanvelaga1998@gmail.com",
+  "dostiva-tech": "dostivatech@gmail.com"
 }
